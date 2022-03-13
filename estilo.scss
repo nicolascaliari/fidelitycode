@@ -1,0 +1,10 @@
+$principal : rgb(199, 82, 4); 
+$fidelitycode : rgb(7, 219, 7);
+
+$primary : $principal;
+
+$secondary : $fidelitycode;
+
+
+
+@import "./libs/bootstrap/scss/bootstrap";
