@@ -97,12 +97,6 @@ html {
 }
 
 
-
-
-
-
-
-
 strong {
   color: rgb(199, 82, 4);
 }
@@ -130,16 +124,10 @@ strong {
 
 .contenedor-segunda-parte {
   position: relative;
+ margin-bottom: -200px;
 
 
 }
-
-.img-segunda-parte {
-  margin: auto;
-
-}
-
-
 
 
 
