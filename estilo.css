@@ -2,7 +2,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Nunito, sans-serif;
-
 }
 
 body {
@@ -12,7 +11,6 @@ body {
 html {
   overflow-x: hidden;
 }
-
 
 /* ------------ HEADER------------ */
 
@@ -36,7 +34,6 @@ html {
 
 .nav-toggle i {
   color: #3a0000;
-
 }
 
 .nav-link {
@@ -57,8 +54,6 @@ html {
   display: flex;
   margin-left: 0px;
   list-style: none;
-
-
 }
 
 .nav-menu-item {
@@ -96,7 +91,6 @@ html {
   display: none;
 }
 
-
 strong {
   color: rgb(199, 82, 4);
 }
@@ -106,7 +100,6 @@ strong {
   display: flex;
 }
 
-
 .texto1 {
   position: absolute;
   text-align: center;
@@ -115,22 +108,12 @@ strong {
   margin-top: 70px;
 }
 
-
-
-
-
-
 /* ----------segunda parte de la pagina --------*/
 
 .contenedor-segunda-parte {
   position: relative;
   height: 700px;
-
-
 }
-
-
-
 
 .nosotros {
   width: 500px;
@@ -142,9 +125,7 @@ strong {
   flex-direction: column;
   margin: auto;
   bottom: 500px;
-  background-color: rgb(34, 31, 31, 60%) ;
- 
-
+  background-color: rgb(34, 31, 31, 60%);
 }
 
 .nosotros h2 {
@@ -153,7 +134,6 @@ strong {
   font-size: 50px;
   font-weight: 700;
 }
-
 
 .nosotros-span {
   margin-top: 30px;
@@ -165,27 +145,19 @@ strong {
 
 
 
-
-
-
-
 /* ------------------ skills ------------------- */
 
 .container-skills {
-  
   width: 100%;
   height: 700px;
 }
 
-
 .container-skills-h2 h2 {
   text-align: center;
   color: #000;
-  padding-left: 40px;
   font-size: 50px;
   font-weight: 800;
 }
-
 
 .tarjeta-skills {
   margin: auto;
@@ -196,9 +168,7 @@ strong {
   width: 150px;
   font-size: 100px;
   margin: auto;
-
   transition: all 0.3s ease;
-
 }
 
 .html {
@@ -231,12 +201,6 @@ strong {
   transform: scale(1.2);
 }
 
-
-
-
-
-
-
 /*----FOOTER----*/
 
 .contenedor-footer {
@@ -251,28 +215,15 @@ strong {
   overflow: hidden;
 }
 
-
 .contenedor-footer {
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* servicios */
 
 .texto1-servicios {
   position: absolute;
 }
-
-
 
 .texto1-servicios h2 {
   color: #fff;
@@ -286,9 +237,7 @@ strong {
   text-align: center;
   margin-top: 40px;
   font-weight: 600;
-
 }
-
 
 .contenedor-tarjeta {
   background-color: antiquewhite;
@@ -308,7 +257,6 @@ strong {
   flex-direction: column;
 }
 
-
 .contenedor-tarjeta2 {
   margin: auto;
   margin-top: 30px;
@@ -318,8 +266,6 @@ strong {
   max-width: 600px;
   background-color: antiquewhite;
 }
-
-
 
 .contenedor-tarjeta3 {
   margin: auto;
@@ -338,10 +284,6 @@ strong {
 .div-lista-tarjeta li {
   list-style: none;
 }
-
-
-
-
 
 /* contactanos */
 
@@ -371,7 +313,6 @@ strong {
   font-size: 15px;
   color: #fff;
   padding: 12px;
-
 }
 
 .description strong {
@@ -384,24 +325,17 @@ strong {
 
 .contacto-link:hover {
   background-color: rgba(255, 85, 55, 0.185);
-  ;
 }
 
 .contacto-link::after {
   background-color: rgba(255, 85, 55, 0.185);
-  ;
 }
-
 
 .form-contacto form input {
   width: 90%;
   padding: 10px;
   margin: 20px;
-
 }
-
-
-
 
 .form-contacto form button {
   background-color: #ff5437;
@@ -416,8 +350,6 @@ strong {
   border: 0px;
 }
 
-
-
 .form-contacto input {
   border: none;
   border-bottom: 0.5px solid red;
@@ -425,17 +357,8 @@ strong {
   border-radius: 4px;
 }
 
-
-
-
-
-
-
-
-
 /* --------ADAPTACION DE TAMAÑOS-------*/
 @media (max-width: 885px) {
-
   .header {
     height: 60px;
     z-index: 100;
@@ -475,11 +398,8 @@ strong {
     color: #f78383;
   }
 
-
-
   .nav-toggle {
     display: block;
-
   }
 
   .nav-menu_visible {
@@ -489,11 +409,9 @@ strong {
   .nav-toggle:focus:not(:focus-visible) {
     outline: none;
   }
-
 }
 
-
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   .contenedor {
     width: 100%;
     position: relative;
@@ -501,13 +419,10 @@ strong {
     align-items: center;
   }
 
-
   .texto1 {
     text-align: center;
     position: absolute;
     padding: 500px;
-
-
   }
 
   .texto1 h1 {
@@ -515,7 +430,6 @@ strong {
     text-shadow: #000 6px 6px 6px;
     font-size: 50px;
     padding: 20px;
-
   }
 
   .texto1 p {
@@ -524,30 +438,22 @@ strong {
     font-size: 30px;
     padding: 20px;
     text-shadow: #000 2px 2px 4px;
-
   }
 
   strong {
     color: rgb(199, 82, 4);
   }
-
-
 }
 
-
-
-
-@media only screen and (min-width:768px) {
-
+@media only screen and (min-width: 768px) {
   .img-fluid {
     display: flex;
     flex-direction: row;
   }
 
-
   .nosotros {
     width: 500px;
-    height: 400px;
+    height: 430px;
     border-radius: 20px;
     position: relative;
     padding: 40px 50px;
@@ -558,7 +464,6 @@ strong {
   }
 
   .nosotros p {
-
     text-align: center;
 
     font-size: 20px;
@@ -568,7 +473,6 @@ strong {
     margin-top: 30px;
   }
 
-
   .contenedor-footer {
     background-color: rgb(54, 42, 42);
     width: 100%;
@@ -577,7 +481,6 @@ strong {
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 30px;
-
   }
 
   .contenedor-footer h2 {
@@ -599,26 +502,19 @@ strong {
     margin-left: 13px;
   }
 
-
   .div-footer-span span {
     color: #fff;
     margin: 15px;
   }
 
-
   .strong-footer {
     color: rgb(199, 82, 4);
 
     font-size: 50px;
-
   }
 }
 
-
-
-
-
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
   .div-container {
     background-color: rgb(229, 231, 235);
     height: 530px;
@@ -637,23 +533,15 @@ strong {
     margin-top: 50px;
   }
 
-
-
   .div-container h2 {
     text-align: center;
     font-size: 15px;
     color: #000;
     padding: 12px;
-
   }
-
-
-
 }
 
-
-
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   .texto1-servicios h2 {
     color: #fff;
     font-size: 50px;
@@ -661,25 +549,23 @@ strong {
     margin-top: 40px;
   }
 
-
-
   .div-servicios-h2 h2 {
     color: #000;
     text-align: center;
     margin-top: 40px;
     font-weight: 600;
-
   }
 }
 
-
-
-@media only screen and (max-width:768px) {
-
+@media only screen and (max-width: 768px) {
   .container-skills {
     height: 1300px;
+    margin-top: -200px;
   }
 
+  .container-skills-h2 h2 {
+    text-align: center;
+  }
 
   .container {
     display: flex;
@@ -690,4 +576,59 @@ strong {
     margin: auto;
     padding: 35px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .contenedor-segunda-parte {
+    margin-top: 130px;
+  }
+
+  .img-segunda-parte {
+    display: none;
+  }
+
+  .nosotros-imagenes img {
+    width: 110px;
+  }
+
+  .nosotros-imagenes {
+    margin: auto;
+  }
+
+  .nosotros {
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #fff;
+  }
+
+  .nosotros h2 {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 1000;
+  }
+
+  .nosotros-span {
+    margin-top: 30px;
+    color: #000;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 600;
+    padding: 12px;
+  }
+}
+
+
+
+@media only screen and (min-width:768px) {
+
+  .nosotros-imagenes {
+    display: none;
+  }
+  
 }
